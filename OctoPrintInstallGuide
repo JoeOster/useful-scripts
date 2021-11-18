@@ -1,0 +1,15 @@
+Hardware: NUC5i5MYHE
+OS Ubuntu: ubuntu-20.04.3-live-server-amd64 (fails)
+OS Ubuntu: ubuntu-20.04.3-desktop-amd64 - Passes
+** Make a bootable USB Drive
+1. Download rufus
+2. Use refus choose Disk or ISO image and select ubuntu-20.04.3-desktop-amd64
+** Install
+-English parameters
+-Normal installation
+-install third Party
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install python3-pip python3-dev python3-setuptools python3-venv git libyaml-dev build-essential
+
